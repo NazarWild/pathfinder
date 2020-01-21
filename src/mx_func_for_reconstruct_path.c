@@ -3,10 +3,10 @@
 static bool check_on_unique(int *glk, int **all, int len1, int *len) {
     bool check = true;
     int i;
-    for (i = 0; i < len[3]; i++){
-        if (mx_int_strcmp(all[i], glk, len1, all[i][len[0] + 1]) == 0) {
+
+    for (i = 0; i < len[3]; i++) {
+        if (mx_int_strcmp(all[i], glk, len1, len) == 0)
             return false;
-        }
     }
     return check;
 }

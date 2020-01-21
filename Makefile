@@ -20,7 +20,6 @@ SRC = src/main.c \
 	src/mx_error_check_3.c \
 	src/mx_error_check_4.c \
 	src/mx_error_check_5.c \
-	src/mx_error_check_6.c \
 	src/mx_error_check_incorrect_kol_islands.c \
 	src/mx_error_check_incorrect_symbols.c \
 	src/mx_error_check_on_null.c \
@@ -44,7 +43,8 @@ SRC = src/main.c \
 	src/mx_output.c \
 	src/mx_out_n.c \
 	src/mx_fucking_function.c \
-	src/mx_error_check.c
+	src/mx_error_check.c \
+	src/mx_part_2_for_rec.c
 
 OUT = main.o \
 	mx_change_signs_to_32.o \
@@ -60,7 +60,6 @@ OUT = main.o \
 	mx_error_check_3.o \
 	mx_error_check_4.o \
 	mx_error_check_5.o \
-	mx_error_check_6.o \
 	mx_error_check_incorrect_kol_islands.o \
 	mx_error_check_incorrect_symbols.o \
 	mx_error_check_on_null.o \
@@ -84,7 +83,8 @@ OUT = main.o \
 	mx_output.o \
 	mx_out_n.o \
 	mx_fucking_function.o \
-	mx_error_check.o
+	mx_error_check.o \
+	mx_part_2_for_rec.o
 
 
 CFLAGS = -std=c11 -Werror -Wall -Wextra -Wpedantic
